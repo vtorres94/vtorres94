@@ -1,30 +1,3 @@
-<style>
-    .row {
-        display: flex;
-    }
-    .column {
-        flex: 50%;
-    }
-    button {
-        background-color: #26DFE5;
-        width: 100px;
-        padding: 5px;
-        border-radius: 10px;
-        &:hover {
-            cursor: pointer;
-            background-color: #10A2A8;
-        }
-    }
-</style>
-<script>
-    function sendMessage(event) {
-        event.preventDefault();
-        const message = document.getElementById('message').value;
-        const url = `https://wa.me/5214492284747?text=${encodeURIComponent(message)}`;
-        window.open(url, '_blank');
-    }
-</script>
-
 <div align="center">
     <h1>Hi 👋, I'm Vladimir Torres</h1>
     <h3>Software Developer</h3>
@@ -131,12 +104,4 @@
                 <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> 
             </a>
         </p><hr/>
-        <div>
-            <form onsubmit="sendMessage(event)">
-                <h3>SEND ME A MESSAGE</h3>
-                <textarea id="message" name="message" rows="4" cols="50" placeholder="Write a message..."></textarea><br><br>
-                <button type="submit">SEND</button>
-            </form>
-        </div>
-
     </div>
