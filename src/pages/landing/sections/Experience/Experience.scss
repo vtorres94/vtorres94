@@ -1,0 +1,16 @@
+.experience-section {
+    text-align: center;
+
+    .jobs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .job {
+            height: 25vh;
+            width: 30%;
+            background-color: #ffffff23;
+            border-radius: 60px;
+        }
+    }
+}

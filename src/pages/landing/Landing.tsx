@@ -1,3 +1,10 @@
+import { About, Experience, Hero } from "./sections";
 export const Landing = ({}) => {
-	return <div></div>;
+	return (
+		<>
+			<Hero />
+			<About />
+			<Experience />
+		</>
+	);
 };
