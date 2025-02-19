@@ -1,4 +1,7 @@
 import { Job } from "./components/Job";
+import cwvl from "../../../../assets/cwvl.jpg";
+import outdev from "../../../../assets/outdev.jpg";
+import ciesoft from "../../../../assets/ciesoft.jpg";
 import "./Experience.scss";
 
 export const Experience = ({}) => {
@@ -11,7 +14,7 @@ export const Experience = ({}) => {
 			end: "Oct 2024",
 			description: "",
 			thechnologies: [],
-			logo: "",
+			logo: cwvl,
 			location: "Aguascalientes, Ags",
 			responsabilities: [
 				"Developed a custom CRM system using React for lead management, increasing operational efficiency by 80% (https://app.cwvlconsultoria.com).",
@@ -33,7 +36,7 @@ export const Experience = ({}) => {
 			end: "Oct 2021",
 			description: "",
 			thechnologies: [],
-			logo: "",
+			logo: outdev,
 			location: "Guadalajara, Jal",
 			responsabilities: [
 				"Developed backend modules in Django for the Investment Smart System (SII).",
@@ -49,7 +52,7 @@ export const Experience = ({}) => {
 			end: "Oct 2024",
 			description: "",
 			thechnologies: [],
-			logo: "",
+			logo: ciesoft,
 			location: "Zacatecas, Zac",
 			responsabilities: [
 				"Developed backend modules in Java for the Hospital Management System (Blue Health).",
