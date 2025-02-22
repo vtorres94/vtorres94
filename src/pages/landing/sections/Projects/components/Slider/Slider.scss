@@ -1,0 +1,45 @@
+Col {
+  display: flex;
+  flex-direction: column;
+  margin-left: 29px;
+}
+
+.wd-70 {
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.carousel-control-next {
+  color: black !important;
+}
+
+.carousel-control-prev {
+  color: black !important;
+}
+
+.onMobile {
+  position: relative;
+  display: none;
+}
+
+.onComputer {
+  position: absolute;
+  display: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .wd-70 {
+    width: 100%;
+  }
+
+  .onMobile {
+    position: relative;
+    display: inherit;
+  }
+
+  .onComputer {
+    position: absolute;
+    display: none;
+  }
+}

@@ -8,9 +8,6 @@ function App() {
 			<Header />
 			<Body />
 			<Footer />
-			<div className="app">
-				<div className="stars"></div>
-			</div>
 		</BrowserRouter>
 	);
 }

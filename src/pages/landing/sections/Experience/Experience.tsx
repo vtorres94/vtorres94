@@ -65,7 +65,7 @@ export const Experience = ({}) => {
 			<h2>EXPERIENCE</h2>
 			<div className="jobs">
 				{jobs.map((job) => {
-					return <Job job={job} />;
+					return <Job key={job.id} job={job} />;
 				})}
 			</div>
 		</div>

@@ -1,6 +1,18 @@
+
 .projects-section {
     text-align: center;
     background-color: #00acb51c;
-    
-
+    .project {
+        display: flex;
+        flex-direction: column;
+        vertical-align: middle;
+        height: 400px;        
+        .logo {
+            margin-top: auto;
+            margin-bottom: auto;
+            img{
+                width: 300px;
+            }
+        }
+    }
 }
