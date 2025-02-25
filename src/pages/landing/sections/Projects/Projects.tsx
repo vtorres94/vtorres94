@@ -48,7 +48,7 @@ export const Projects = ({}) => {
 	];
 
 	return (
-		<div className="projects-section">
+		<div id="projects-section" className="projects-section">
 			<h2>PROJECTS</h2>
 			<Slider items={projects} />
 		</div>

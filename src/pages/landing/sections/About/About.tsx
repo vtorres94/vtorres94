@@ -2,7 +2,7 @@ import "./About.scss";
 
 export const About = ({}) => {
 	return (
-		<div className="about-section">
+		<div id="about-section" className="about-section">
 			<h2>
 				<span>ABOUT</span> ME
 			</h2>

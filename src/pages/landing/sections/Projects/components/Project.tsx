@@ -4,10 +4,10 @@ interface IProps {
 
 export const Project = ({ project }: IProps) => {
 	return (
-		<div className="project">
+		<a className="project" href={project.link} target="_blank">
 			<div className="logo">
 				<img src={project.logo} />
 			</div>
-		</div>
+		</a>
 	);
 };

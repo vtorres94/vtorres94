@@ -1,4 +1,4 @@
-import { About, Experience, Hero, Projects } from "./sections";
+import { About, Experience, Hero, Projects, Contact } from "./sections";
 import "./Landing.scss";
 
 export const Landing = ({}) => {
@@ -8,6 +8,7 @@ export const Landing = ({}) => {
 			<About />
 			<Experience />
 			<Projects />
+			<Contact />
 		</div>
 	);
 };

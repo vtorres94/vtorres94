@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    .socials {
+        display: flex;
+        gap: 20px;
+        
+        a {
+            color: #fff;
+            font-size: 1.5rem;
+            &:hover {
+                .github {
+                    fill: #000;
+                }
+                .linkedin {
+                    fill: rgb(20, 95, 207);
+                }
+                .whatsapp {
+                    fill: rgb(6, 204, 82);
+                }
+                .email {
+                    fill: rgb(202, 11, 11);
+                }
+            }
+            
+        }
+    }
+    .menu {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        .socials {
+            order: 2;
+            margin-bottom: 20px;
+        }
+        .menu {
+            order: 1;
+        }
+    }
+    
+}

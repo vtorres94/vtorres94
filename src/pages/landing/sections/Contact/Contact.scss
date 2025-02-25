@@ -1,0 +1,39 @@
+.contact-section {
+    text-align: center;
+    h2 {
+        margin-bottom: 20px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+
+        input, textarea {
+            color: #00ADB5;
+            background-color: #00acb521;
+            outline: 1px solid #4b4b4b;
+            border-radius: 10px;
+            padding: 5px;
+            font-family: sans-serif;
+            outline: none;
+            border: none;
+            margin: 0px 10px;
+            &:focus-visible {
+                border: none;
+                outline: 2px solid #00ADB5 !important;
+            }
+        }
+        button {
+            background-color: #00acb538;
+            height: 40px;
+            border-radius: 20px;
+            border: 2px solid #00ADB5;
+            color: #00ADB5;
+            &:hover {
+                background-color: #00acb5;
+                color: #fff;
+            }
+        }
+    }
+}
