@@ -1,0 +1,69 @@
+{
+	"personalProjects": [
+		{
+			"id": "pp-1",
+			"title": "React Message Decoder",
+			"link": "https://digital-hype.netlify.app/",
+			"description": "Digital Hype Coding Challenge",
+			"logo": "https://m.media-amazon.com/images/I/71PClTnQ5BL._UF1000,1000_QL80_.jpg"
+		},
+		{
+			"id": "pp-2",
+			"title": "React Turing Machine Simulator",
+			"link": "https://vtorres94.github.io/turingmachine/",
+			"description": "School Project",
+			"logo": "https://www.mathworks.com/company/technical-articles/alan-turing-and-his-connections-to-matlab/_jcr_content/mainParsys/image_2.adapt.full.medium.jpg/1672329586836.jpg"
+		},
+		{
+			"id": "pp-3",
+			"title": "React Products Manager",
+			"link": "https://github.com/vtorres94/productsOutDev",
+			"description": "OUTDEV Coding Challenge",
+			"logo": "https://www.custominfotech.com/wp-content/uploads/2019/04/shutterstock_1150356917.jpg"
+		},
+		{
+			"id": "pp-4",
+			"title": "Flutter Users Manager",
+			"link": "https://github.com/vtorres94/FlutterUsers",
+			"description": "CWVL Coding Challenge",
+			"logo": "https://www.egnyte.com/sites/default/files/inline-images/The%20expansion%20of%20cloud%20applications%20has%20added%20to....png"
+		}
+	],
+	"freelanceProjects": [
+		{
+			"id": "p-1",
+			"title": "MIRAIDEV",
+			"description": "",
+			"logo": "/src/assets/miraidev.png",
+			"link": "https://miraidev.tech"
+		},
+		{
+			"id": "p-2",
+			"title": "PLENNIA",
+			"description": "",
+			"logo": "/src/assets/plennia.png",
+			"link": "https://plennia.mx"
+		},
+		{
+			"id": "p-3",
+			"title": "LOZART",
+			"description": "",
+			"logo": "/src/assets/lozart.png",
+			"link": "https://lozartceramica.com"
+		},
+		{
+			"id": "p-4",
+			"title": "ZENTRO PRANA",
+			"description": "",
+			"logo": "/src/assets/zentroprana.png",
+			"link": "https://zentroprana.com"
+		},
+		{
+			"id": "p-6",
+			"title": "TORDAVI INTERNATIONAL",
+			"description": "",
+			"logo": "/src/assets/tordavi.png",
+			"link": "https://tordavi.com"
+		}
+	]
+}

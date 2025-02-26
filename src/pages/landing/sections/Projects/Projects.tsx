@@ -1,56 +1,36 @@
+import { Card } from "antd";
 import { Slider } from "./components/Slider/Slider";
+import DATA from "../../../../static/projects.json";
 import "./Projects.scss";
 
 export const Projects = ({}) => {
-	const projects = [
-		{
-			id: "p-1",
-			title: "MIRAIDEV",
-			description: "",
-			logo: "/src/assets/miraidev.png",
-			link: "https://miraidev.tech",
-		},
-		{
-			id: "p-2",
-			title: "PLENNIA",
-			description: "",
-			logo: "/src/assets/plennia.png",
-			link: "https://plennia.mx",
-		},
-		{
-			id: "p-3",
-			title: "LOZART",
-			description: "",
-			logo: "/src/assets/lozart.png",
-			link: "https://lozartceramica.com",
-		},
-		{
-			id: "p-4",
-			title: "ZENTRO PRANA",
-			description: "",
-			logo: "/src/assets/zentroprana.png",
-			link: "https://zentroprana.com",
-		},
-		{
-			id: "p-5",
-			title: "PUNTO CHULETA",
-			description: "",
-			logo: "/src/assets/puntochuleta.png",
-			link: "https://puntochuleta.com",
-		},
-		{
-			id: "p-6",
-			title: "TORDAVI INTERNATIONAL",
-			description: "",
-			logo: "/src/assets/tordavi.png",
-			link: "https://tordavi.com",
-		},
-	];
+	const { personalProjects, freelanceProjects } = DATA;
 
 	return (
 		<div id="projects-section" className="projects-section">
 			<h2>PROJECTS</h2>
-			<Slider items={projects} />
+			<div className="personal-projects">
+				{personalProjects.map((project) => {
+					return (
+						<Card
+							key={project.id}
+							hoverable
+							className="personal-project"
+							onClick={() => window.open(project.link)}
+							cover={
+								<img alt={project.title} src={project.logo} />
+							}
+						>
+							<Card.Meta
+								title={project.title}
+								description={project.description}
+							/>
+						</Card>
+					);
+				})}
+			</div>
+			<h2>FREELANCE</h2>
+			<Slider items={freelanceProjects} />
 		</div>
 	);
 };
