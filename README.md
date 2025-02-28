@@ -7,13 +7,18 @@
 </p>
 <p>
 
--   🔭 I’m currently working on [CWVL Consultoría](https://cwvlconsultoria.com)
+-   👨‍💻 Show my portfolio on [https://vladimir-torres.miraidev.tech](https://vladimir-torres.miraidev.tech)
 
--   👨‍💻 All of my projects are available at [https://vladimir-torres.netlify.app](https://vladimir-torres.netlify.app)
-
--   💬 Ask me about **react, node, python, flutter, django**
+-   💬 Ask me about **React, Node, Typescript, Python, Flutter, Django**
 
 -   📫 How to reach me **vladimir.tordavi@gmail.com**
+
+-   🗣️ Spanish Native, English B2 Conversational
+
+-   📄 [Download Resume](https://vladimir-torres.miraidev.tech/assets/CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf)
+
+-   ⚡ Fun fact **I love to transform coffe on code**
+
     </p>
     <h3 align="left">Connect with me:</h3>
     <p align="left" style="padding-left: 50px">
