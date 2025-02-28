@@ -17,7 +17,7 @@
 
 -   📄 [Download Resume](https://vladimir-torres.miraidev.tech/assets/CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf)
 
--   ⚡ Fun fact **I love to transform coffe on code**
+-   ⚡ Fun fact **I love to transform coffee on code**
 
     </p>
     <h3 align="left">Connect with me:</h3>
