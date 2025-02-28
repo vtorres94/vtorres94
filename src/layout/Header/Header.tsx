@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router";
 import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import "./Header.scss";
 
 export const Header = ({}) => {
+	const navigate = useNavigate();
 	const socials: any = [
 		{
 			icon: <FaGithub className="github" />,
@@ -45,6 +47,9 @@ export const Header = ({}) => {
 				})}
 			</div>
 			<div className="menu">
+				<a className="home-option" onClick={() => navigate("/")}>
+					Home
+				</a>
 				{menu.map((section, index) => {
 					return (
 						<a key={`${index}-${section.name}`} href={section.link}>

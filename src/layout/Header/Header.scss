@@ -35,6 +35,14 @@ nav {
     .menu {
         display: flex;
         gap: 20px;
+        .home-option {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
 }
 

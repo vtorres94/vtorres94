@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router";
 import { IJob } from "../../../../../models/job.model";
 
 interface IProps {
@@ -5,8 +6,10 @@ interface IProps {
 }
 
 export const Job = ({ job }: IProps) => {
+	const navigate = useNavigate();
+
 	return (
-		<div className="job">
+		<div className="job" onClick={() => navigate(`/job/${job.id}`)}>
 			<div>
 				<img src={job.logo} />
 			</div>
