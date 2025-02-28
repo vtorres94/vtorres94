@@ -8,19 +8,19 @@ export const Header = ({}) => {
 	const socials: any = [
 		{
 			icon: <FaGithub className="github" />,
-			link: "",
+			link: "https://github.com/vtorres94/",
 		},
 		{
 			icon: <FaLinkedinIn className="linkedin" />,
-			link: "",
+			link: "https://www.linkedin.com/in/vladimir-tordavi",
 		},
 		{
 			icon: <FaWhatsapp className="whatsapp" />,
-			link: "",
+			link: "https://wa.me/5214492284747",
 		},
 		{
 			icon: <IoIosMail className="email" />,
-			link: "",
+			link: "mailto:vladimir.tordavi@gmail.com",
 		},
 	];
 
