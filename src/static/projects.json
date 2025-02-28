@@ -1,6 +1,13 @@
 {
 	"personalProjects": [
 		{
+			"id": "pp-0",
+			"title": "Plennia Digital Card",
+			"link": "https://link.plennia.mx/",
+			"description": "React Dynamic Digital Card",
+			"logo": "/assets/icon_plennia.png"
+		},
+		{
 			"id": "pp-1",
 			"title": "React Message Decoder",
 			"link": "https://digital-hype.netlify.app/",
@@ -20,13 +27,6 @@
 			"link": "https://github.com/vtorres94/productsOutDev",
 			"description": "OUTDEV Coding Challenge",
 			"logo": "https://www.custominfotech.com/wp-content/uploads/2019/04/shutterstock_1150356917.jpg"
-		},
-		{
-			"id": "pp-4",
-			"title": "Flutter Users Manager",
-			"link": "https://github.com/vtorres94/FlutterUsers",
-			"description": "CWVL Coding Challenge",
-			"logo": "https://www.egnyte.com/sites/default/files/inline-images/The%20expansion%20of%20cloud%20applications%20has%20added%20to....png"
 		}
 	],
 	"freelanceProjects": [
