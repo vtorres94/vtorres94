@@ -59,6 +59,13 @@
 			"link": "https://zentroprana.com"
 		},
 		{
+			"id": "p-5",
+			"title": "PUNTO CHULETA",
+			"description": "",
+			"logo": "/src/assets/puntochuleta.png",
+			"link": "https://puntochuleta.com"
+		},
+		{
 			"id": "p-6",
 			"title": "TORDAVI INTERNATIONAL",
 			"description": "",

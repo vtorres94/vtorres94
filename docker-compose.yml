@@ -1,0 +1,12 @@
+version: "3.2"
+
+services:
+    app:
+        restart: always
+        command: npm run preview
+        build: .
+        ports:
+            - "8080:8080"
+            - "4173:4173"
+        env_file:
+            - .env

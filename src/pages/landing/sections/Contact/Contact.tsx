@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import "./Contact.scss";
 import { Select, Input, notification } from "antd";
+import "./Contact.scss";
 
 interface IState {
 	name: string;
@@ -61,21 +61,18 @@ export const Contact = ({}) => {
 			return;
 		}
 
-		const messageToSend = `Hi Vladimir, I'm ${name}\nEmail: ${email}\nI'm interested in: ${subject}\nDescription: ${message}`;
-		const link = document.getElementById("wa-link");
-		link?.setAttribute(
-			"href",
-			`https://wa.me/5214492284747?text=${messageToSend}`
+		const messageToSend = `Hi Vladimir, I'm ${name}\n Email: ${email}\n I'm interested in: ${subject}\n Description: ${message}`;
+
+		window.open(
+			`https://wa.me/5214492284747?text=${messageToSend}`,
+			"_blank"
 		);
-		link?.setAttribute("target", "_blank");
-		link?.click();
 	};
 
 	return (
 		<div id="contact-section" className="contact-section">
 			{contextHolder}
 			<h2>CONTACT ME</h2>
-			<a style={{ display: "none" }} id="wa-link" />
 			<form onSubmit={onSubmit}>
 				<Input
 					name="email"

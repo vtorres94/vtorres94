@@ -14,6 +14,10 @@ export const Job = ({ job }: IProps) => {
 				<img src={job.logo} />
 			</div>
 			<h3>{job.company}</h3>
+			<h5>{job.job}</h5>
+			<p>
+				{job.start} - {job.end}
+			</p>
 		</div>
 	);
 };

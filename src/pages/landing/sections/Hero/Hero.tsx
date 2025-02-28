@@ -1,5 +1,6 @@
 import "./Hero.scss";
 import profile_image from "../../../../assets/me.jpg";
+
 export const Hero = ({}) => {
 	return (
 		<div className="hero">
@@ -11,8 +12,26 @@ export const Hero = ({}) => {
 					VLADIMIR <span>TORRES</span>
 				</h1>
 				<div className="button-group">
-					<button>Hire Me</button>
-					<button>Downlowad CV</button>
+					<button
+						onClick={() =>
+							window.open(
+								"https://www.linkedin.com/in/vladimir-tordavi",
+								"_blank"
+							)
+						}
+					>
+						Hire Me
+					</button>
+					<button
+						onClick={() =>
+							window.open(
+								"/src/assets/CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf",
+								"_blank"
+							)
+						}
+					>
+						Downlowad CV
+					</button>
 				</div>
 			</div>
 			<div className="image">
