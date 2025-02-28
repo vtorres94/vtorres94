@@ -8,7 +8,7 @@
 			"end": "Nov 2024",
 			"description": "",
 			"thechnologies": [],
-			"logo": "/src/assets/cwvl.jpg",
+			"logo": "/assets/cwvl.jpg",
 			"location": "Aguascalientes, Ags",
 			"responsabilities": [
 				"Developed a custom CRM system using React for lead management, increasing operational efficiency by 80% (https://app.cwvlconsultoria.com).",
@@ -30,7 +30,7 @@
 			"end": "Oct 2021",
 			"description": "",
 			"thechnologies": [],
-			"logo": "/src/assets/outdev.jpg",
+			"logo": "/assets/outdev.jpg",
 			"location": "Guadalajara, Jal",
 			"responsabilities": [
 				"Developed backend modules in Django for the Investment Smart System (SII).",
@@ -46,7 +46,7 @@
 			"end": "Oct 2024",
 			"description": "",
 			"thechnologies": [],
-			"logo": "/src/assets/ciesoft.jpg",
+			"logo": "/assets/ciesoft.jpg",
 			"location": "Zacatecas, Zac",
 			"responsabilities": [
 				"Developed backend modules in Java for the Hospital Management System (Blue Health).",

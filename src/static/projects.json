@@ -34,42 +34,42 @@
 			"id": "p-1",
 			"title": "MIRAIDEV",
 			"description": "",
-			"logo": "/src/assets/miraidev.png",
+			"logo": "/assets/miraidev.png",
 			"link": "https://miraidev.tech"
 		},
 		{
 			"id": "p-2",
 			"title": "PLENNIA",
 			"description": "",
-			"logo": "/src/assets/plennia.png",
+			"logo": "/assets/plennia.png",
 			"link": "https://plennia.mx"
 		},
 		{
 			"id": "p-3",
 			"title": "LOZART",
 			"description": "",
-			"logo": "/src/assets/lozart.png",
+			"logo": "/assets/lozart.png",
 			"link": "https://lozartceramica.com"
 		},
 		{
 			"id": "p-4",
 			"title": "ZENTRO PRANA",
 			"description": "",
-			"logo": "/src/assets/zentroprana.png",
+			"logo": "/assets/zentroprana.png",
 			"link": "https://zentroprana.com"
 		},
 		{
 			"id": "p-5",
 			"title": "PUNTO CHULETA",
 			"description": "",
-			"logo": "/src/assets/puntochuleta.png",
+			"logo": "/assets/puntochuleta.png",
 			"link": "https://puntochuleta.com"
 		},
 		{
 			"id": "p-6",
 			"title": "TORDAVI INTERNATIONAL",
 			"description": "",
-			"logo": "/src/assets/tordavi.png",
+			"logo": "/assets/tordavi.png",
 			"link": "https://tordavi.com"
 		}
 	]

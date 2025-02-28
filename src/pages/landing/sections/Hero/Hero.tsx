@@ -1,5 +1,4 @@
 import "./Hero.scss";
-import profile_image from "../../../../assets/me.jpg";
 
 export const Hero = ({}) => {
 	return (
@@ -25,7 +24,7 @@ export const Hero = ({}) => {
 					<button
 						onClick={() =>
 							window.open(
-								"/src/assets/CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf",
+								"/assets/CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf",
 								"_blank"
 							)
 						}
@@ -35,7 +34,7 @@ export const Hero = ({}) => {
 				</div>
 			</div>
 			<div className="image">
-				<img src={profile_image} />
+				<img src="/assets/me.jpg" />
 			</div>
 		</div>
 	);
