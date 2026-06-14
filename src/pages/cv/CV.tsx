@@ -134,121 +134,127 @@ const references = [
   { name: "Miguel Angel Salas", role: "CWVL — Coworker", phone: "+52 449 940 1095" },
 ];
 
+const PDF_NAME = "CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf";
+
 export const CV = () => {
   return (
-    <div className="cv-page">
-      {/* ── Header ── */}
-      <header className="cv-header">
-        <h1 className="cv-name">Miguel Vladimir Torres Dávila</h1>
-        <p className="cv-title">Full Stack Developer · AI-Augmented Engineering</p>
-        <div className="cv-contact">
-          <span>{contact.phone}</span>
-          <span className="cv-sep">·</span>
-          <a href={`mailto:${contact.email}`}>{contact.email}</a>
-          <span className="cv-sep">·</span>
-          <a href={`https://${contact.linkedin}`} target="_blank" rel="noreferrer">{contact.linkedin}</a>
-          <span className="cv-sep">·</span>
-          <a href={`https://${contact.website}`} target="_blank" rel="noreferrer">{contact.website}</a>
-        </div>
-      </header>
+    <>
+      <a
+        className="cv-download-btn no-print"
+        href={`/assets/${PDF_NAME}`}
+        download={PDF_NAME}
+      >
+        ↓ DOWNLOAD PDF
+      </a>
+      <div className="cv-page">
+        {/* ── Header ── */}
+        <header className="cv-header">
+          <h1 className="cv-name">Miguel Vladimir Torres Dávila</h1>
+          <p className="cv-title">Full Stack Developer · AI-Augmented Engineering</p>
+          <div className="cv-contact">
+            <span>{contact.phone}</span>
+            <span className="cv-sep">·</span>
+            <a href={`mailto:${contact.email}`}>{contact.email}</a>
+            <span className="cv-sep">·</span>
+            <a href={`https://${contact.linkedin}`} target="_blank" rel="noreferrer">{contact.linkedin}</a>
+            <span className="cv-sep">·</span>
+            <a href={`https://${contact.website}`} target="_blank" rel="noreferrer">{contact.website}</a>
+          </div>
+        </header>
 
-      {/* ── Summary ── */}
-      <section className="cv-section">
-        <p className="cv-summary">{summary}</p>
-      </section>
+        {/* ── Summary ── */}
+        <section className="cv-section">
+          <p className="cv-summary">{summary}</p>
+        </section>
 
-      {/* ── Experience ── */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">EXPERIENCE</h2>
-        {experience.map((job) => (
-          <div key={job.company} className="cv-job">
-            <div className="cv-job__header">
-              <div className="cv-job__left">
-                <strong className="cv-job__company">{job.company}</strong>
+        {/* ── Experience ── */}
+        <section className="cv-section">
+          <h2 className="cv-section-title">EXPERIENCE</h2>
+          {experience.map((job) => (
+            <div key={job.company} className="cv-job">
+              <div className="cv-job__header">
+                <span className="cv-job__company">{job.company}</span>
                 {job.subtitle && <span className="cv-job__subtitle"> — {job.subtitle}</span>}
-                <div className="cv-job__role">{job.role}</div>
+                <span className="cv-job__meta"> | {job.location} | {job.period}</span>
               </div>
-              <div className="cv-job__right">
-                <span className="cv-job__location">{job.location}</span>
-                <span className="cv-job__period">{job.period}</span>
+              <div className="cv-job__role">{job.role}</div>
+              <ul className="cv-job__bullets">
+                {job.bullets.map((b, i) => (
+                  <li key={i}>{b}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+
+        {/* ── Tech Skills ── */}
+        <section className="cv-section">
+          <h2 className="cv-section-title">TECH SKILLS</h2>
+          <div className="cv-skills">
+            {skills.map((s) => (
+              <div key={s.category} className="cv-skill-row">
+                <span className="cv-skill-row__cat">{s.category}:</span>
+                <span className="cv-skill-row__items">{s.items}</span>
               </div>
-            </div>
-            <ul className="cv-job__bullets">
-              {job.bullets.map((b, i) => (
-                <li key={i}>{b}</li>
-              ))}
-            </ul>
+            ))}
           </div>
-        ))}
-      </section>
+        </section>
 
-      {/* ── Tech Skills ── */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">TECH SKILLS</h2>
-        <div className="cv-skills">
-          {skills.map((s) => (
-            <div key={s.category} className="cv-skill-row">
-              <span className="cv-skill-row__cat">{s.category}:</span>
-              <span className="cv-skill-row__items">{s.items}</span>
+        {/* ── Soft Skills ── */}
+        <section className="cv-section">
+          <h2 className="cv-section-title">SOFT SKILLS</h2>
+          <p className="cv-text">{softSkills}</p>
+        </section>
+
+        {/* ── Education ── */}
+        <section className="cv-section">
+          <h2 className="cv-section-title">EDUCATION</h2>
+          {education.map((e) => (
+            <div key={e.institution} className="cv-edu">
+              <div className="cv-edu__header">
+                <strong>{e.institution}</strong>
+                <span>{e.location} · {e.period}</span>
+              </div>
+              <div className="cv-edu__degree">{e.degree}</div>
             </div>
           ))}
-        </div>
-      </section>
+        </section>
 
-      {/* ── Soft Skills ── */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">SOFT SKILLS</h2>
-        <p className="cv-text">{softSkills}</p>
-      </section>
+        {/* ── Languages ── */}
+        <section className="cv-section">
+          <h2 className="cv-section-title">LANGUAGES</h2>
+          <ul className="cv-list">
+            <li>Spanish — Native</li>
+            <li>English — B1 Intermediate</li>
+          </ul>
+        </section>
 
-      {/* ── Education ── */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">EDUCATION</h2>
-        {education.map((e) => (
-          <div key={e.institution} className="cv-edu">
-            <div className="cv-edu__header">
-              <strong>{e.institution}</strong>
-              <span>{e.location} · {e.period}</span>
-            </div>
-            <div className="cv-edu__degree">{e.degree}</div>
+        {/* ── Projects ── */}
+        <section className="cv-section">
+          <h2 className="cv-section-title">FREELANCE PROJECTS</h2>
+          <p className="cv-text cv-text--label">MIRAIDEV (miraidev.com) — Freelance agency managing client web projects:</p>
+          <ul className="cv-list cv-list--compact">
+            {freelanceProjects.slice(1).map((p) => (
+              <li key={p}>{p}</li>
+            ))}
+          </ul>
+        </section>
+
+        {/* ── References ── */}
+        <section className="cv-section">
+          <h2 className="cv-section-title">REFERENCES</h2>
+          <div className="cv-refs">
+            {references.map((r) => (
+              <div key={r.name} className="cv-ref">
+                <strong>{r.name}</strong>
+                <span>{r.role}</span>
+                <span>{r.phone}</span>
+              </div>
+            ))}
           </div>
-        ))}
-      </section>
+        </section>
 
-      {/* ── Languages ── */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">LANGUAGES</h2>
-        <ul className="cv-list">
-          <li>Spanish — Native</li>
-          <li>English — B2 Conversational</li>
-        </ul>
-      </section>
-
-      {/* ── Projects ── */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">FREELANCE PROJECTS</h2>
-        <p className="cv-text cv-text--label">MIRAIDEV (miraidev.com) — Freelance agency managing client web projects:</p>
-        <ul className="cv-list cv-list--compact">
-          {freelanceProjects.slice(1).map((p) => (
-            <li key={p}>{p}</li>
-          ))}
-        </ul>
-      </section>
-
-      {/* ── References ── */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">REFERENCES</h2>
-        <div className="cv-refs">
-          {references.map((r) => (
-            <div key={r.name} className="cv-ref">
-              <strong>{r.name}</strong>
-              <span>{r.role}</span>
-              <span>{r.phone}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
-    </div>
+      </div>
+    </>
   );
 };
