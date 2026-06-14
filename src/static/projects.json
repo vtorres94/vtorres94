@@ -1,76 +1,97 @@
 {
-	"personalProjects": [
-		{
-			"id": "pp-0",
-			"title": "Plennia Digital Card",
-			"link": "https://link.plennia.mx/",
-			"description": "React Dynamic Digital Card",
-			"logo": "/assets/icon_plennia.png"
-		},
-		{
-			"id": "pp-1",
-			"title": "React Message Decoder",
-			"link": "https://digital-hype.netlify.app/",
-			"description": "Digital Hype Coding Challenge",
-			"logo": "https://m.media-amazon.com/images/I/71PClTnQ5BL._UF1000,1000_QL80_.jpg"
-		},
-		{
-			"id": "pp-2",
-			"title": "React Turing Machine Simulator",
-			"link": "https://vtorres94.github.io/turingmachine/",
-			"description": "School Project",
-			"logo": "https://www.mathworks.com/company/technical-articles/alan-turing-and-his-connections-to-matlab/_jcr_content/mainParsys/image_2.adapt.full.medium.jpg/1672329586836.jpg"
-		},
-		{
-			"id": "pp-3",
-			"title": "React Products Manager",
-			"link": "https://github.com/vtorres94/productsOutDev",
-			"description": "OUTDEV Coding Challenge",
-			"logo": "https://www.custominfotech.com/wp-content/uploads/2019/04/shutterstock_1150356917.jpg"
-		}
-	],
-	"freelanceProjects": [
-		{
-			"id": "p-1",
-			"title": "MIRAIDEV",
-			"description": "",
-			"logo": "/assets/miraidev.png",
-			"link": "https://miraidev.tech"
-		},
-		{
-			"id": "p-2",
-			"title": "PLENNIA",
-			"description": "",
-			"logo": "/assets/plennia.png",
-			"link": "https://plennia.mx"
-		},
-		{
-			"id": "p-3",
-			"title": "LOZART",
-			"description": "",
-			"logo": "/assets/lozart.png",
-			"link": "https://lozartceramica.com"
-		},
-		{
-			"id": "p-4",
-			"title": "ZENTRO PRANA",
-			"description": "",
-			"logo": "/assets/zentroprana.png",
-			"link": "https://zentroprana.com"
-		},
-		{
-			"id": "p-5",
-			"title": "PUNTO CHULETA",
-			"description": "",
-			"logo": "/assets/puntochuleta.png",
-			"link": "https://puntochuleta.com"
-		},
-		{
-			"id": "p-6",
-			"title": "TORDAVI INTERNATIONAL",
-			"description": "",
-			"logo": "/assets/tordavi.png",
-			"link": "https://tordavi.com"
-		}
-	]
+  "personalProjects": [
+    {
+      "id": "pp-0",
+      "title": "Plennia Digital Card",
+      "link": "https://link.plennia.mx/",
+      "description": "NFC-powered dynamic digital business card with shareable profile via QR and direct link.",
+      "logo": "/assets/icon_plennia.png"
+    },
+    {
+      "id": "pp-1",
+      "title": "React Message Decoder",
+      "link": "https://digital-hype.netlify.app/",
+      "description": "Cipher decoder app built for the Digital Hype coding challenge. Pattern recognition + React.",
+      "logo": "https://m.media-amazon.com/images/I/71PClTnQ5BL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "pp-2",
+      "title": "Turing Machine Simulator",
+      "link": "https://vtorres94.github.io/turingmachine/",
+      "description": "Interactive Turing machine visualization built as a Formal Languages university project.",
+      "logo": "https://www.mathworks.com/company/technical-articles/alan-turing-and-his-connections-to-matlab/_jcr_content/mainParsys/image_2.adapt.full.medium.jpg/1672329586836.jpg"
+    },
+    {
+      "id": "pp-3",
+      "title": "React Products Manager",
+      "link": "https://github.com/vtorres94/productsOutDev",
+      "description": "Full CRUD product manager built for the OUTDEV technical interview challenge.",
+      "logo": "https://www.custominfotech.com/wp-content/uploads/2019/04/shutterstock_1150356917.jpg"
+    }
+  ],
+  "freelanceProjects": [
+    {
+      "id": "p-1",
+      "title": "MIRAIDEV",
+      "description": "Tech agency website — services, portfolio & client acquisition hub.",
+      "logo": "/assets/miraidev.png",
+      "link": "https://miraidev.com"
+    },
+    {
+      "id": "p-3",
+      "title": "LOZART",
+      "description": "E-commerce & brand site for an artisan ceramics studio.",
+      "logo": "/assets/lozart.png",
+      "link": "https://lozartceramica.com"
+    },
+    {
+      "id": "p-4",
+      "title": "ZENTRO PRANA",
+      "description": "Wellness center portal with booking integration and class schedule.",
+      "logo": "/assets/zentroprana.png",
+      "link": "https://zentroprana.com"
+    },
+    {
+      "id": "p-6",
+      "title": "TORDAVI INTERNATIONAL",
+      "description": "International business consulting website with multilingual support.",
+      "logo": "/assets/tordavi.png",
+      "link": "https://tordavi.com"
+    },
+    {
+      "id": "p-7",
+      "title": "MANPRO SERVICE",
+      "description": "Corporate site for a professional services & maintenance company.",
+      "logo": "https://www.google.com/s2/favicons?domain=manproservice.com&sz=128",
+      "link": "https://manproservice.com"
+    },
+    {
+      "id": "p-8",
+      "title": "HOTEL SAN JUDAS TADEO",
+      "description": "Hotel landing page with room showcase and booking information.",
+      "logo": "https://www.google.com/s2/favicons?domain=hotelsanjudastadeo.com&sz=128",
+      "link": "https://hotelsanjudastadeo.com"
+    },
+    {
+      "id": "p-9",
+      "title": "BB CONSULTORES",
+      "description": "Business consulting firm website with services and contact flow.",
+      "logo": "https://www.google.com/s2/favicons?domain=bbconsultores.com&sz=128",
+      "link": "https://bbconsultores.com"
+    },
+    {
+      "id": "p-10",
+      "title": "RF ELECTROMECÁNICA",
+      "description": "Industrial electromechanical services company — portfolio and contact.",
+      "logo": "https://www.google.com/s2/favicons?domain=rfelectromecanica.com&sz=128",
+      "link": "https://rfelectromecanica.com"
+    },
+    {
+      "id": "p-11",
+      "title": "MEMBE",
+      "description": "Mexican digital platform — membership and community management.",
+      "logo": "https://www.google.com/s2/favicons?domain=membe.mx&sz=128",
+      "link": "https://membe.mx"
+    }
+  ]
 }

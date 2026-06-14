@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "label": "FRONTEND",
+      "tag": "MAIN MOVES",
+      "color": "#00ADB5",
+      "skills": [
+        { "name": "React", "level": 95 },
+        { "name": "TypeScript", "level": 90 },
+        { "name": "Next.js", "level": 78 },
+        { "name": "SCSS / CSS", "level": 88 }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "BACKEND",
+      "tag": "SPECIAL MOVES",
+      "color": "#FF2D55",
+      "skills": [
+        { "name": "Node.js", "level": 88 },
+        { "name": "Python / Django", "level": 70 },
+        { "name": "Java", "level": 65 },
+        { "name": "Flutter", "level": 62 }
+      ]
+    },
+    {
+      "id": "devops",
+      "label": "DEVOPS & CLOUD",
+      "tag": "SUPER MOVES",
+      "color": "#FFD60A",
+      "skills": [
+        { "name": "Docker", "level": 85 },
+        { "name": "AWS", "level": 80 },
+        { "name": "GCP", "level": 72 },
+        { "name": "CI/CD", "level": 78 }
+      ]
+    },
+    {
+      "id": "database",
+      "label": "DATABASE",
+      "tag": "COMBOS",
+      "color": "#9B5DE5",
+      "skills": [
+        { "name": "PostgreSQL", "level": 82 },
+        { "name": "MongoDB", "level": 75 }
+      ]
+    }
+  ]
+}

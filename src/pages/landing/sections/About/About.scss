@@ -1,8 +1,53 @@
-.about-section {
-    text-align: center;
+.about {
+  background: linear-gradient(135deg, rgba(0, 173, 181, 0.03) 0%, transparent 60%);
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
     p {
-        text-align: justify;
-        padding-left: 30px;
-        padding-right: 30px;
+      color: var(--color-text);
+      line-height: 1.8;
+      font-size: 15px;
+      opacity: 0.9;
     }
+  }
+
+  &__traits {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .trait-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 24px;
+
+    &__icon {
+      font-size: 20px;
+    }
+
+    &__label {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 16px;
+      letter-spacing: 3px;
+      color: var(--color-text);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
 }

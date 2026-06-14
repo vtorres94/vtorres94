@@ -1,61 +1,144 @@
-nav {
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 72px;
+  background: rgba(13, 13, 26, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+
+  &__logo {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: var(--color-text);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background-color: #333;
-    color: #fff;
-    font-size: 1.2rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 100px;
-    .socials {
-        display: flex;
-        gap: 20px;
-        
-        a {
-            color: #fff;
-            font-size: 1.5rem;
-            &:hover {
-                .github {
-                    fill: #000;
-                }
-                .linkedin {
-                    fill: rgb(20, 95, 207);
-                }
-                .whatsapp {
-                    fill: rgb(6, 204, 82);
-                }
-                .email {
-                    fill: rgb(202, 11, 11);
-                }
-            }
-            
-        }
+    gap: 1px;
+    transition: opacity 0.2s;
+
+    &:hover { opacity: 0.85; }
+
+    .logo-bracket {
+      color: var(--color-muted);
     }
-    .menu {
-        display: flex;
-        gap: 20px;
-        .home-option {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            &:hover {
-                cursor: pointer;
-            }
-        }
+    .logo-neon {
+      color: var(--color-neon);
     }
+  }
+
+  &__desktop {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 8px;
+
+    .nav-link {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 14px;
+      letter-spacing: 3px;
+      color: var(--color-muted);
+      padding: 6px 14px;
+      border: 1px solid transparent;
+      transition: all 0.25s;
+
+      &:hover {
+        color: var(--color-neon);
+        border-color: var(--color-border);
+        box-shadow: 0 0 12px var(--color-neon-dim);
+      }
+    }
+  }
+
+  &__socials {
+    display: flex;
+    gap: 16px;
+    border-left: 1px solid var(--color-border);
+    padding-left: 24px;
+  }
+
+  &__burger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+
+    span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--color-text);
+      transition: all 0.3s;
+
+      &.open:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      &.open:nth-child(2) { opacity: 0; }
+      &.open:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    }
+
+    @media (max-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &__mobile {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    background: rgba(13, 13, 26, 0.98);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px 24px;
+    gap: 4px;
+
+    .nav-link {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 4px;
+      color: var(--color-muted);
+      padding: 12px 0;
+      border-bottom: 1px solid var(--color-border);
+      transition: color 0.2s;
+
+      &:hover { color: var(--color-neon); }
+    }
+
+    .mobile-socials {
+      display: flex;
+      gap: 20px;
+      padding-top: 16px;
+    }
+  }
 }
 
-@media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        .socials {
-            order: 2;
-            margin-bottom: 20px;
-        }
-        .menu {
-            order: 1;
-        }
-    }
-    
+.social-icon {
+  font-size: 18px;
+  color: var(--color-muted);
+  transition: all 0.2s;
+
+  &:hover { transform: translateY(-2px); }
+  &--github:hover { color: #f0f6fc; }
+  &--linkedin:hover { color: #0A66C2; }
+  &--whatsapp:hover { color: #25D366; }
+  &--email:hover { color: var(--color-red); }
 }

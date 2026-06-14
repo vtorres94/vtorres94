@@ -1,14 +1,15 @@
-import { About, Experience, Hero, Projects, Contact } from "./sections";
+import { About, Experience, Hero, Projects, Contact, Skills } from "./sections";
 import "./Landing.scss";
 
-export const Landing = ({}) => {
-	return (
-		<div className="landing-page">
-			<Hero />
-			<About />
-			<Experience />
-			<Projects />
-			<Contact />
-		</div>
-	);
+export const Landing = () => {
+  return (
+    <main className="landing-page">
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+    </main>
+  );
 };
