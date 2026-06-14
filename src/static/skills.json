@@ -8,8 +8,9 @@
       "skills": [
         { "name": "React", "level": 95 },
         { "name": "TypeScript", "level": 90 },
+        { "name": "SCSS / CSS", "level": 88 },
         { "name": "Next.js", "level": 78 },
-        { "name": "SCSS / CSS", "level": 88 }
+        { "name": "Flutter", "level": 72 }
       ]
     },
     {
@@ -19,9 +20,9 @@
       "color": "#FF2D55",
       "skills": [
         { "name": "Node.js", "level": 88 },
-        { "name": "Python / Django", "level": 70 },
-        { "name": "Java", "level": 65 },
-        { "name": "Flutter", "level": 62 }
+        { "name": "Java 21 / Spring Boot", "level": 80 },
+        { "name": "Spring WebFlux", "level": 75 },
+        { "name": "Python / Django", "level": 70 }
       ]
     },
     {
@@ -31,8 +32,9 @@
       "color": "#FFD60A",
       "skills": [
         { "name": "Docker", "level": 85 },
-        { "name": "AWS", "level": 80 },
-        { "name": "GCP", "level": 72 },
+        { "name": "Kubernetes", "level": 80 },
+        { "name": "AWS EC2", "level": 78 },
+        { "name": "AWS SQS", "level": 72 },
         { "name": "CI/CD", "level": 78 }
       ]
     },
@@ -43,6 +45,7 @@
       "color": "#9B5DE5",
       "skills": [
         { "name": "PostgreSQL", "level": 82 },
+        { "name": "MySQL", "level": 80 },
         { "name": "MongoDB", "level": 75 }
       ]
     }

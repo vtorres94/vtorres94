@@ -2,31 +2,17 @@
   "personalProjects": [
     {
       "id": "pp-0",
-      "title": "Plennia Digital Card",
-      "link": "https://link.plennia.mx/",
-      "description": "NFC-powered dynamic digital business card with shareable profile via QR and direct link.",
-      "logo": "/assets/icon_plennia.png"
+      "title": "CWVL CRM",
+      "link": "https://app.cwvlconsultoria.com",
+      "description": "Enterprise CRM for franchisee lead management — React, Node.js, PostgreSQL. Increased operational efficiency by 80%. Built in-house as Full Stack Developer.",
+      "logo": "https://www.google.com/s2/favicons?domain=cwvlconsultoria.com&sz=128"
     },
     {
       "id": "pp-1",
-      "title": "React Message Decoder",
-      "link": "https://digital-hype.netlify.app/",
-      "description": "Cipher decoder app built for the Digital Hype coding challenge. Pattern recognition + React.",
-      "logo": "https://m.media-amazon.com/images/I/71PClTnQ5BL._UF1000,1000_QL80_.jpg"
-    },
-    {
-      "id": "pp-2",
-      "title": "Turing Machine Simulator",
-      "link": "https://vtorres94.github.io/turingmachine/",
-      "description": "Interactive Turing machine visualization built as a Formal Languages university project.",
-      "logo": "https://www.mathworks.com/company/technical-articles/alan-turing-and-his-connections-to-matlab/_jcr_content/mainParsys/image_2.adapt.full.medium.jpg/1672329586836.jpg"
-    },
-    {
-      "id": "pp-3",
-      "title": "React Products Manager",
-      "link": "https://github.com/vtorres94/productsOutDev",
-      "description": "Full CRUD product manager built for the OUTDEV technical interview challenge.",
-      "logo": "https://www.custominfotech.com/wp-content/uploads/2019/04/shutterstock_1150356917.jpg"
+      "title": "BB CONSULTORES APP",
+      "link": "https://app.bbconsultores.com",
+      "description": "Custom management platform for a business consulting firm — freelance client project.",
+      "logo": "https://www.google.com/s2/favicons?domain=bbconsultores.com&sz=128"
     }
   ],
   "freelanceProjects": [

@@ -1,0 +1,287 @@
+/* ── CV Page — screen + print ── */
+
+.cv-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 48px 64px;
+  background: #fff;
+  color: #111;
+  font-family: 'Poppins', 'Georgia', serif;
+  font-size: 13px;
+  line-height: 1.55;
+  min-height: 100vh;
+}
+
+/* ── Header ── */
+.cv-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #00ADB5;
+}
+
+.cv-name {
+  font-family: 'Bebas Neue', 'Poppins', sans-serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #111;
+  margin: 0 0 4px;
+  font-weight: 400;
+}
+
+.cv-title {
+  font-size: 13px;
+  color: #00ADB5;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.cv-contact {
+  font-size: 12px;
+  color: #444;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+
+  a {
+    color: #00ADB5;
+    text-decoration: none;
+  }
+
+  .cv-sep {
+    color: #bbb;
+    padding: 0 2px;
+  }
+}
+
+/* ── Sections ── */
+.cv-section {
+  margin-bottom: 18px;
+}
+
+.cv-section-title {
+  font-family: 'Bebas Neue', 'Poppins', sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #111;
+  border-bottom: 1px solid #00ADB5;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.cv-summary {
+  font-size: 12.5px;
+  color: #333;
+  line-height: 1.65;
+  font-style: italic;
+  text-align: justify;
+}
+
+/* ── Experience ── */
+.cv-job {
+  margin-bottom: 14px;
+
+  &:last-child { margin-bottom: 0; }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 5px;
+  }
+
+  &__left { flex: 1; }
+
+  &__company {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+  }
+
+  &__subtitle {
+    font-size: 12px;
+    color: #00ADB5;
+    font-weight: 600;
+  }
+
+  &__role {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+    margin-top: 1px;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-shrink: 0;
+  }
+
+  &__location {
+    font-size: 12px;
+    color: #555;
+  }
+
+  &__period {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+  }
+
+  &__bullets {
+    padding-left: 16px;
+    margin: 0;
+
+    li {
+      margin-bottom: 3px;
+      font-size: 12.5px;
+      color: #333;
+      line-height: 1.5;
+    }
+  }
+}
+
+/* ── Skills ── */
+.cv-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cv-skill-row {
+  font-size: 12.5px;
+  line-height: 1.5;
+
+  &__cat {
+    font-weight: 700;
+    color: #111;
+    margin-right: 6px;
+  }
+
+  &__items {
+    color: #333;
+  }
+}
+
+/* ── Education ── */
+.cv-edu {
+  margin-bottom: 8px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+
+    strong { color: #111; }
+    span { color: #555; font-style: italic; font-size: 12px; }
+  }
+
+  &__degree {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+  }
+}
+
+/* ── Lists ── */
+.cv-list {
+  padding-left: 16px;
+  margin: 0;
+
+  li {
+    margin-bottom: 3px;
+    font-size: 12.5px;
+    color: #333;
+  }
+
+  &--compact li { margin-bottom: 2px; }
+}
+
+.cv-text {
+  font-size: 12.5px;
+  color: #333;
+
+  &--label {
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 4px;
+  }
+}
+
+/* ── References ── */
+.cv-refs {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.cv-ref {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 12.5px;
+
+  strong { color: #111; }
+  span { color: #444; }
+}
+
+/* ── Print hint (screen only) ── */
+.cv-print-hint {
+  margin-top: 32px;
+  padding: 12px 20px;
+  background: #f0fdfe;
+  border: 1px solid #00ADB5;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #005f66;
+  text-align: center;
+
+  kbd {
+    background: #e0f7fa;
+    border: 1px solid #00ADB5;
+    border-radius: 3px;
+    padding: 1px 6px;
+    font-family: monospace;
+    font-size: 11px;
+  }
+}
+
+/* ── Print ── */
+@media print {
+  .no-print { display: none !important; }
+
+  body {
+    background: #fff !important;
+    background-image: none !important;
+  }
+
+  body::before { display: none !important; }
+
+  .cv-page {
+    padding: 0;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .cv-name { font-size: 28px; }
+
+  .cv-job { page-break-inside: avoid; }
+
+  .cv-section { page-break-inside: avoid; }
+
+  a {
+    color: #00ADB5 !important;
+    text-decoration: none;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 18mm 16mm;
+}

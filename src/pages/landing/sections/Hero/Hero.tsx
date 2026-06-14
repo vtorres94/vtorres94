@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router";
 import "./Hero.scss";
 
 const stats = [
@@ -8,6 +9,7 @@ const stats = [
 ];
 
 export const Hero = () => {
+  const navigate = useNavigate();
   return (
     <section className="hero">
       <div className="hero__content">
@@ -55,9 +57,9 @@ export const Hero = () => {
             </button>
             <button
               className="btn-fighter btn-fighter--secondary"
-              onClick={() => window.open("/assets/CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf", "_blank")}
+              onClick={() => navigate("/cv")}
             >
-              DOWNLOAD CV
+              VIEW CV
             </button>
           </motion.div>
         </motion.div>

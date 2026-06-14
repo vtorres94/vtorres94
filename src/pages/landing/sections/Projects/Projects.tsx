@@ -51,7 +51,7 @@ export const Projects = () => {
         <div className="projects__subsection">
           <h3 className="projects__mode-title projects__mode-title--story">
             <span>STORY MODE</span>
-            <span className="mode-badge">PERSONAL</span>
+            <span className="mode-badge">PROFESSIONAL</span>
           </h3>
           <div className="projects__grid projects__grid--story">
             {personalProjects.map((p, i) => (

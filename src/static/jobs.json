@@ -1,6 +1,25 @@
 {
   "jobs": [
     {
+      "id": "job-4",
+      "company": "Digital Challengers",
+      "job": "Java Developer",
+      "start": "Feb 2025",
+      "end": "Present",
+      "description": "",
+      "technologies": ["Java 21", "Spring Boot", "Spring WebFlux", "Kubernetes", "AWS", "Azure Pipelines", "Kiro", "Claude Code"],
+      "logo": "https://www.google.com/s2/favicons?domain=digitalchallengers.com&sz=128",
+      "location": "Remote",
+      "responsibilities": [
+        "Developing BIAN-compliant reactive microservices for Diners Club Ecuador's core banking platform.",
+        "Java 21 · Spring Boot 3.5 · Spring WebFlux — non-blocking I/O (Mono/Flux) for high-concurrency financial operations.",
+        "Implemented Hexagonal Architecture (Ports & Adapters) ensuring full domain isolation and independent testability.",
+        "Event-driven architecture: implemented and tested AWS SQS message queues for async inter-service communication in MSL (outbound messaging) flows.",
+        "Infrastructure: AWS EC2 provisioning, Kubernetes cluster deployments, Azure Pipelines CI/CD, AWS KMS encryption/decryption.",
+        "AI-augmented workflow: authored steering files and domain specs that give Kiro and Claude Code the context to generate production-ready code — structured playbooks, not improvised prompts."
+      ]
+    },
+    {
       "id": "job-3",
       "company": "CWVL Consultoría",
       "job": "Full Stack Developer",

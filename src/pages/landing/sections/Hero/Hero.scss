@@ -208,9 +208,24 @@
 }
 
 /* ── Responsive ── */
+@media (max-width: 1200px) {
+  .hero {
+    justify-content: flex-start;
+
+    &__scroll-hint {
+      position: static;
+      transform: none;
+      left: auto;
+      flex: 1;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
 @media (max-width: 900px) {
   .hero {
-    padding: 40px 24px 80px;
+    padding: 40px 24px 0;
 
     &__content {
       flex-direction: column-reverse;

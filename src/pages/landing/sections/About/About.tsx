@@ -27,24 +27,30 @@ export const About = () => {
         <div className="about__grid">
           <div className="about__text fighter-card">
             <p>
-              Software Developer with <span className="neon">6+ years</span> of experience
-              building scalable web applications. I specialize in{" "}
-              <span className="neon">React</span>,{" "}
-              <span className="neon">TypeScript</span>, and{" "}
-              <span className="neon">Node.js</span> — crafting full-stack
-              solutions from database to UI.
+              Full Stack Developer with <span className="neon">6+ years</span> of experience
+              building enterprise web applications and reactive microservices. Currently
+              specializing in <span className="neon">Java 21</span> /{" "}
+              <span className="neon">Spring WebFlux</span> for{" "}
+              <span className="neon">BIAN</span>-compliant financial microservices
+              at Diners Club Ecuador.
             </p>
             <p>
-              I architect <span className="neon">RESTful APIs</span>, containerize with{" "}
-              <span className="neon">Docker</span>, and deploy on{" "}
-              <span className="neon">AWS</span> &amp; <span className="neon">GCP</span>.
-              Experienced in microservices, CI/CD pipelines, and agile environments
-              where performance and reliability are non-negotiable.
+              I work with AI through <span className="neon">specs, not chat</span>.
+              I author steering files and domain specs that give{" "}
+              <span className="neon">Kiro</span> and{" "}
+              <span className="neon">Claude Code</span> the context to generate
+              production-ready code from the first pass — structured playbooks,
+              not improvised prompts.
             </p>
             <p>
-              I lead freelance projects end-to-end — from architecture decisions
-              to production deployments — for clients across{" "}
-              <span className="neon">Mexico</span> and beyond.
+              Strong across the full stack: <span className="neon">React</span> /{" "}
+              <span className="neon">TypeScript</span> on the frontend,{" "}
+              <span className="neon">Node.js</span> and{" "}
+              <span className="neon">Java</span> on the backend, with solid DevOps
+              practices — <span className="neon">Docker</span>,{" "}
+              <span className="neon">Kubernetes</span>,{" "}
+              <span className="neon">Azure Pipelines</span>,{" "}
+              <span className="neon">AWS</span>.
             </p>
           </div>
 
