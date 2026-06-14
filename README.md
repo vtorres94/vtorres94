@@ -1,112 +1,68 @@
 <div align="center">
-    <h1>Hi 👋, I'm Vladimir Torres</h1>
-    <h3>Software Developer</h3>
+
+# Miguel Vladimir Torres Dávila
+
+### Full Stack Developer · AI-Augmented Engineering
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-vladimir--torres.miraidev.com-00ADB5?style=for-the-badge&logo=vercel&logoColor=white)](https://vladimir-torres.miraidev.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vladimir--tordavi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vladimir-tordavi)
+[![Email](https://img.shields.io/badge/Email-vladimir.tordavi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vladimir.tordavi@gmail.com)
+[![CV](https://img.shields.io/badge/Download_CV-PDF-FF2D55?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://vladimir-torres.miraidev.com/CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf)
+
+![Profile views](https://komarev.com/ghpvc/?username=vtorres94&color=00ADB5&style=flat-square)
+
 </div>
-<p align="left"> 
-    <img src="https://komarev.com/ghpvc/?username=vtorres94&label=Profile%20views&color=0e75b6&style=flat" alt="vtorres94" /> 
-</p>
-<p>
 
--   👨‍💻 Show my portfolio on [https://vladimir-torres.miraidev.tech](https://vladimir-torres.miraidev.tech)
+---
 
--   💬 Ask me about **React, Node, Typescript, Python, Flutter, Django**
+## About
 
--   📫 How to reach me **vladimir.tordavi@gmail.com**
+Full Stack Developer with **6+ years** of experience building enterprise web applications and reactive microservices. Currently working as **Java Developer** at Digital Challengers, leading BIAN-compliant microservice development for **Diners Club Ecuador**'s core banking platform.
 
--   🗣️ Spanish Native, English B2 Conversational
+I work with AI through **specs, not chat** — authoring steering files and domain specs that give [Kiro](https://kiro.dev) and [Claude Code](https://claude.ai/code) the context to generate production-ready code from the first pass.
 
--   📄 [Download Resume](https://vladimir-torres.miraidev.tech/assets/CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf)
+- 🏦 **Current:** Java 21 / Spring WebFlux — BIAN microservices @ Diners Club Ecuador
+- 🤖 **AI Workflow:** Kiro · Claude Code · Steering Files · Spec-Driven Development
+- 🌐 **Freelance agency:** [miraidev.com](https://miraidev.com)
+- 🗣️ Spanish (Native) · English B2
 
--   ⚡ Fun fact **I love to transform coffee on code**
+---
 
-    </p>
-    <h3 align="left">Connect with me:</h3>
-    <p align="left" style="padding-left: 50px">
-        <a href="https://www.linkedin.com/in/vladimir-tordavi" target="blank">
-            <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vladimir-torres-205072185" height="30" width="40" />
-        </a>
-    </p>
-    <div align="center">
-        <h2>SKILLS</h2>
-        <h3>Tools</h3>
-        <p>
-            <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> 
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> 
-            </a>
-            <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
-            </a>
-            <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
-                <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-            </a>
-            <a href="https://postman.com" target="_blank" rel="noreferrer"> 
-                <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> 
-            </a>
-        </p>
-        <h2>BACKEND</h2>
-        <div class="row">
-            <div class="column">
-                <h3>NODE</h3>
-                <p>
-                    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> 
-                    </a>
-                    <a href="https://expressjs.com/" target="_blank" rel="noreferrer"> 
-                        <img src="https://vectorified.com/images/express-js-icon-20.png" alt="express" width="40" height="40"/> 
-                    </a>
-                    <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
-                    </a>
-                </p>
-            </div>
-            <div class="column">
-                <h3>DJANGO</h3>
-                <p>
-                    <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> 
-                        <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> 
-                    </a>
-                    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> 
-                    </a>
-                </p>
-            </div>
-        </div>
-        <h2>FRONTEND</h2>
-        <div class="row">
-            <div class="column">
-                <h3>WEB</h3>
-                <p>
-                    <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
-                    </a>
-                    <a href="https://redux.js.org/" target="_blank" rel="noreferrer"> 
-                        <img src="https://redux.js.org/img/redux.svg" alt="redux" width="40" height="40"/> 
-                    </a>
-                    <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> 
-                    </a>
-                    <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> 
-                    </a>
-                </p>
-            </div>
-            <div class="column">
-                <h3>MOBILE</h3>
-                <p>
-                    <a href="https://flutter.dev" target="_blank" rel="noreferrer"> 
-                        <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> 
-                    </a> 
-                </p>
-            </div>
-        </div>
-        <h2>AUTOMATION</h2>
-        <h3>SCRAPING</h3>
-        <p>
-            <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
-            </a>
-            <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> 
-                <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> 
-            </a>
-        </p><hr/>
-    </div>
+## Tech Stack
+
+### Backend
+![Java](https://img.shields.io/badge/Java%2021-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring WebFlux](https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+
+### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
+### DevOps & Cloud
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS%20EC2%20·%20SQS%20·%20KMS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Azure Pipelines](https://img.shields.io/badge/Azure%20Pipelines-0078D7?style=for-the-badge&logo=azurepipelines&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Database
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### AI Tools & Workflow
+![Kiro](https://img.shields.io/badge/Kiro-Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-CC785C?style=for-the-badge&logoColor=white)
+
+---
+
+## Architecture & Practices
+
+`Hexagonal Architecture` &nbsp;·&nbsp; `BIAN Standard` &nbsp;·&nbsp; `Reactive Programming (Mono/Flux)` &nbsp;·&nbsp; `Event-Driven (SQS)` &nbsp;·&nbsp; `Spec-Driven AI Development` &nbsp;·&nbsp; `SOLID` &nbsp;·&nbsp; `SCRUM / Kanban`
