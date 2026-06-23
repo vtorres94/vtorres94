@@ -20,7 +20,7 @@ const experience = [
   {
     company: "DIGITAL CHALLENGERS",
     subtitle: "Client: Diners Club Ecuador",
-    role: "Java Developer — BIAN Microservices",
+    role: "Sr Java Developer — BIAN Microservices",
     location: "Remote",
     period: "Feb 2025 – Present",
     bullets: [
@@ -102,14 +102,8 @@ const skills = [
 
 const education = [
   {
-    institution: "UTEL",
-    degree: "Computer Systems Engineering",
-    location: "Online",
-    period: "2024 – Present",
-  },
-  {
     institution: "INSTITUTO TECNOLÓGICO SUPERIOR DE JEREZ",
-    degree: "Computer Systems Engineering (80% credits)",
+    degree: "Computer Systems Technician",
     location: "Jeréz, Zac",
     period: "2017 – 2021",
   },
@@ -128,11 +122,6 @@ const freelanceProjects = [
 ];
 
 const softSkills = "Proactive · Leadership · Good Communication · Self-Taught · Clean Coder · Resilient · Hard Worker · Problem Solver";
-
-const references = [
-  { name: "Angel Hernández Sainz", role: "CWVL — Project Manager", phone: "+52 646 245 8422" },
-  { name: "Miguel Angel Salas", role: "CWVL — Coworker", phone: "+52 449 940 1095" },
-];
 
 const PDF_NAME = "CV@TORRES_DAVILA_MIGUEL_VLADIMIR.pdf";
 
@@ -239,21 +228,6 @@ export const CV = () => {
             ))}
           </ul>
         </section>
-
-        {/* ── References ── */}
-        <section className="cv-section">
-          <h2 className="cv-section-title">REFERENCES</h2>
-          <div className="cv-refs">
-            {references.map((r) => (
-              <div key={r.name} className="cv-ref">
-                <strong>{r.name}</strong>
-                <span>{r.role}</span>
-                <span>{r.phone}</span>
-              </div>
-            ))}
-          </div>
-        </section>
-
       </div>
     </>
   );
