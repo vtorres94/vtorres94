@@ -9,10 +9,10 @@ const contact = {
 
 const summary = `Full Stack Developer with 6+ years of experience building enterprise web
 applications and reactive microservices. Currently specializing in Java 21 / Spring
-WebFlux for BIAN-compliant financial microservices at Diners Club Ecuador. Proven
-ability to leverage AI development tools (Kiro, Claude Code) with structured
-methodologies — steering files, spec-driven planning, and playbooks — to accelerate
-delivery and reduce rework. Strong across the full stack: React / TypeScript on the
+WebFlux for BIAN-compliant financial microservices at Diners Club Ecuador. Practices
+agentic and spec-driven development with AI coding tools (Kiro, Claude Code) —
+steering files, spec definition, and playbooks — to accelerate delivery and reduce
+rework. Strong across the full stack: React / TypeScript on the
 frontend, Node.js and Java on the backend, with solid DevOps practices (Docker,
 Kubernetes, Azure Pipelines, AWS).`;
 
@@ -29,9 +29,9 @@ const experience = [
       "Implemented Hexagonal Architecture (Ports & Adapters) ensuring full domain isolation and independent testability.",
       "Event-driven architecture: implemented and tested AWS SQS message queues for async inter-service communication in MSL (outbound messaging) flows.",
       "Infrastructure: AWS EC2 provisioning, Kubernetes cluster deployments, Azure Pipelines CI/CD, AWS KMS encryption/decryption.",
-      "AI-augmented workflow: authored steering files providing persistent context to AI agents across the full microservice lifecycle; created BIAN spec and mapping documents to guide implementation from requirements to deployment.",
-      "Applied playbook-driven methodology — structured domain analysis and spec definition before AI execution, reducing hallucinations and rework.",
-      "Tools: Kiro (Amazon), Claude Code (Anthropic) for spec generation, code scaffolding, and implementation acceleration.",
+      "Agentic & spec-driven workflow: authored steering files providing persistent context to coding agents across the full microservice lifecycle; created BIAN spec and mapping documents to guide implementation from requirements to deployment.",
+      "Applied playbook-driven methodology — structured domain analysis and spec definition before agent execution, reducing hallucinations and rework.",
+      "Tooling: Kiro (Amazon) and Claude Code (Anthropic) for spec generation, code scaffolding, and implementation acceleration; configured MCP servers to integrate project context and external tools into the agentic workflow.",
     ],
   },
   {
@@ -91,8 +91,8 @@ const skills = [
     items: "Docker · Kubernetes · Azure Pipelines · AWS (EC2 · S3 · SQS · KMS · Lambda) · GCP · CI/CD · Linux",
   },
   {
-    category: "AI Tools & Practices",
-    items: "Kiro (Amazon) · Claude Code (Anthropic) · Steering Files · Spec-Driven Development · AI Playbooks · Planning-First Methodology",
+    category: "Agentic & AI-Assisted Dev",
+    items: "Claude Code (Anthropic) · Kiro (Amazon) · Agentic Coding · Spec-Driven Development · MCP (configuration & integration) · Steering Files · AI Playbooks · Planning-First Methodology",
   },
   {
     category: "Tools & Methods",
@@ -139,7 +139,7 @@ export const CV = () => {
         {/* ── Header ── */}
         <header className="cv-header">
           <h1 className="cv-name">Miguel Vladimir Torres Dávila</h1>
-          <p className="cv-title">Full Stack Developer · AI-Augmented Engineering</p>
+          <p className="cv-title">Full Stack Developer · Agentic & Spec-Driven Workflows</p>
           <div className="cv-contact">
             <span>{contact.phone}</span>
             <span className="cv-sep">·</span>
